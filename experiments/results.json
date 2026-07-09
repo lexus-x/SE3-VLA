@@ -1,0 +1,25 @@
+{
+  "geoact": {
+    "rotation_error_deg": 7.05411278709752,
+    "translation_error": 0.03691834773105919
+  },
+  "flat": {
+    "rotation_error_deg": 20.39897536187247,
+    "translation_error": 0.0857057872937928
+  },
+  "improvement": {
+    "rotation_pct": 65.41927885121969,
+    "translation_pct": 56.92432343628564
+  },
+  "flow": {
+    "conformal_radius": 0.5430845635400537,
+    "coverage_target": 0.9
+  },
+  "parameters": {
+    "geoact_head": "~2.1M",
+    "flow_matching": "~1.8M",
+    "action_chunking": "~0.3M",
+    "total_trainable": "~4.2M",
+    "backbone_frozen": "~430M (SmolVLA)"
+  }
+}
